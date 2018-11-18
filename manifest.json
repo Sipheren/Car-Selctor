@@ -1,0 +1,23 @@
+{
+	"name": "Car List Selector",
+	"version": "1.0",
+	"iconURL": "https:\/\/touchupguys.com.au\/logo.png",
+	"supportURL": "https:\/\/touchupguys.com.au",
+	"supportEmail": "webmaster@touchupguys.com.au",
+	"oauth": {
+		"scope": "publish_job_notes"
+	},"actions": [{
+		"name": "Car List Selector",
+		"type": "online",
+		"entity": "job",
+		"iconURL": "https:\/\/touchupguys.com.au\/logo.png",
+		"event": "car_list_start"
+	},
+	{
+		"name": "Car List Selector",
+		"type": "app",
+		"entity": "job",
+		"iconURL": "https:\/\/touchupguys.com.au\/logo.png",
+		"event": "car_list_start"
+	}]
+}
