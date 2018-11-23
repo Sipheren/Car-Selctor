@@ -5,19 +5,21 @@
 	"supportURL": "https:\/\/touchupguys.com.au",
 	"supportEmail": "webmaster@touchupguys.com.au",
 	"oauth": {
-		"scope": "publish_job_notes"
+		"scope": "update_custom_fields"
 	},"actions": [{
 		"name": "Car List Selector",
 		"type": "online",
 		"entity": "job",
 		"iconURL": "https:\/\/touchupguys.com.au\/logo.png",
-		"event": "car_list_start"
+		"event": "car_list_start",
+		"location": "modal"
 	},
 	{
 		"name": "Car List Selector",
 		"type": "app",
 		"entity": "job",
 		"iconURL": "https:\/\/touchupguys.com.au\/logo.png",
-		"event": "car_list_start"
+		"event": "car_list_start",
+		"location": "modal"
 	}]
 }
