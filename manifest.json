@@ -5,7 +5,7 @@
 	"supportURL": "https:\/\/touchupguys.com.au",
 	"supportEmail": "webmaster@touchupguys.com.au",
 	"oauth": {
-		"scope": "update_custom_fields"
+		"scope": "publish_job_notes"
 	},"actions": [{
 		"name": "Car List Selector",
 		"type": "online",

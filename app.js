@@ -157,7 +157,6 @@ function handleCarListGen(event, callback) {
                 + "Model: " + Model;
 
     // Now post a Note to the Notes endpoint
-
     request.post({
         url: 'https://api.servicem8.com/api_1.0/Note.json',
         auth: {
@@ -167,22 +166,7 @@ function handleCarListGen(event, callback) {
             related_object: 'job',
             related_object_uuid: strJobUUID, // This is why we needed to persist the job_uuid through the Car List form
             note: strNote
-
         }
-/*
-    // Now post to custom fields
-      request.post({
-          url: 'https://api.servicem8.com/custom_fields_1.0',
-          auth: {
-              bearer: event.auth.accessToken // We can use the temporary access token issued to us for authentication
-          },
-          form: {
-            object_name: 'job',
-            uuid: strJobUUID, // This is why we needed to persist the job_uuid through the Car List form
-            note: strNote
-
-          }
-*/
     }, (err, httpResponse, body) => {
 
         // Check whether the request succeeded
